@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body {
+    font-family: 'Permanent Marker', cursive;
+    background-color: #20262E;
+
+
+}
+.titulo{
+    margin: inherit;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+    
+
+}
+.titulo img{ width: 100%;
+    height: 420px;
+
+}
+#portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 62%;
+    flex-direction: column;
+    margin: 50px 250px 0px 200px
+}
+#inicio{
+   position: absolute;
+ display: inline-flex;
+    color: red;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+#subtitulo{
+    width: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    font-size: 46px;
+    height: 20px;
+    margin: -27px 15px 20px 5px;
+
+}
+h3{
+    color: white;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#seccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.uno{width: 179px;
+    height: 120px;
+    background-color: yellow;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+    border: 2px;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+
+}
+.dos{
+    width: 155px;
+    height: 120px;
+    background-color:yellow;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+    border: 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.tres{
+    width: 160px;
+    height: 120px;
+    background-color:yellow;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 2px;
+    padding: 2px;
+    border: 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.targetas{
+    display: flex;
+}
+input{
+    display: none;
+    
+
+}   
+
+input:checked+label{
+    background-color: red;
+    width: 180px;
+
+}
+input:hover+label{
+    background-color: aqua;
+}
+#selec{
+    background-color: black;
+    width:160px;
+    height:25px;
+    border-radius:20px;
+    border:2px solid white;
+    color:red;
+    margin:30px 20px 10px 5px ;
+}
+
+#seleccionar-ataque{
+    display: flex;
+    flex-direction: column;
+    
+}
+#segundo-subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 35px;
+}
+#segundo-subtitulo img{
+    width: 100%;
+    height: 123px;
+}
+#titulo-alterno{
+    color: red;
+}
+.button-juego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boton-ataque{
+   color: red;
+   width: 150px;
+   height: 50px;
+   background-color: black;
+   border-radius: 50px;
+   margin: 5px;
+   padding: 5px;
+}
+#div-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    border-radius: 143px;
+    color: white;
+    
+}
+#mensage{
+    margin: 5px;
+    flex-direction: column;
+    display: flex;
+    width: 328;
+    height: 93px;
+    color: red;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 70px
+}
+#resultado{
+    display: flex;
+    width: 543px;
+    height: 93px;
+    margin: 20px;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    
+}
+#button-reiniciar{
+    display: flex;
+    width: 200px;
+}
+#reiniciar{
+    width: 200px;
+    height: 40px;
+    background: darkslategrey;
+    color: red;
+    font-size: x-large;
+    border-radius: 20px;
+}
+#pie-pagina-ataque img{
+    margin: 0px;
+    width: 100%;
+    height: 123px;
+}
+.papa{
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+.hijo1{
+    display: grid;
+}
+.hijo2{
+    display: grid;
+}
+#ver-mapa{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mapa{
+    width: 95%;
+    border: 3px solid red;
+
+    
+}
+#button-mapa button{ color: red;
+    display: inline-flex;
+    color: red;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+    font-size: xxx-large;
+    align-items: center;
+    justify-content: center;
+   
+}
+@media(max-width:400px){
+   .targetas{flex-direction: column;}
+   .button-juego{flex-direction: column;}
+  body{flex-direction: column;}
+  #button-mapa{flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+}
+  
+

@@ -1,0 +1,120 @@
+* {
+   overflow: hidden;
+    box-sizing: border-box;
+    scroll-snap-type: none;
+    margin: 0;
+    padding: 0;
+
+
+    
+    
+
+
+
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+    
+
+}
+ nav{display: flex;
+    background-color:red;
+    width: 100%;
+    height: 2rem;
+    margin: 0 ;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+    
+    
+
+ }
+ .inicio{
+    position: relative;
+    left: -63px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 170px 0px 10px;
+
+ }
+
+
+ 
+aside{
+    display: flex;
+    position: absolute;
+    left: 0;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: red;
+    width: 20rem;
+    height: 36rem;
+
+}
+aside article {
+    display: flex;
+    background-color: white;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    width: 19rem;
+    height: 9rem;
+
+    margin: 3px;
+
+}
+.perfil{
+    
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    border: solid 1px red;
+    border-radius: 10px;
+    display: flex;
+    width: 20%;
+    position: absolute;
+    right: 2px;
+    flex-direction: column;
+}
+.portada{
+    display: flex;
+    width: 10rem;
+}
+.linea{
+    display: inline-block;
+    border:solid red 0.1rem;
+    width: 13rem;
+}
+
+.img-perfil{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: -webkit-fill-available;
+ 
+
+}
+.foto-de-perfil{
+    display: flex;
+    max-width: 8rem;
+    border-radius: 10rem;
+}
+.img-perfil,.foto-de-perfil p{
+    margin-bottom: 0rem;
+}
+
+
+
+footer{
+    background-color: red;
+    margin-top: 35rem;
+    height: 3.1rem;
+}

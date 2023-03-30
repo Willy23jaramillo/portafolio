@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">   
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+            :root {
+            --very-ligth-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD982;
+            --white: #FFFFFF;
+            --black: #000000;
+            --sm:14px;
+            --md:16px;
+            --lg:18px;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: 'Quicksand', sans-serif;
+            scroll-snap-type: none;
+            
+            
+        }
+       
+        .product-detail{
+             display: flex;
+             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 360px;
+            padding-bottom: 25px;
+            margin: 1px 1px 1px 200px;
+            background-color: black;
+            margin: -4px 0px;
+            width: 100%;
+        }
+        .product-detail > img:nth-child(1){
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            z-index: 2;
+            padding: 12px;
+            border-radius: 50%;
+           
+        }
+        .product-detail > img:nth-child(1):hover{
+            cursor: pointer;
+        }
+        .product-detail > img:nth-child(2){
+            display: flex;
+           position: absolute;
+           top: 0px;
+           border-radius: 40px;
+        }
+        .product-info{
+            position: absolute;
+            top: 510px;
+            
+        }
+        .product-info p:nth-child(1){
+            font-weight: bold;
+            font-size: var(--md);
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+        .product-info p:nth-child(2){
+            color: var(--very-ligth-pink);
+            font-weight: bold;
+            font-size: var(--md);
+            margin-top: 0;
+            margin-bottom: 36px;
+        }
+        .product-info p:nth-child(3){
+            color: var(--very-ligth-pink);
+            font-weight: bold;
+            font-size: var(--md);
+            margin-top: 0;
+            margin-bottom: 36px;
+        }
+        .primary-button{
+            display: flex;
+            background-color: var(--hospital-green);
+            border-radius: 8px;
+            border: none;
+            color: var(--white);
+            width: 100%;
+            cursor: pointer;
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .primary-button img{
+            width: 40px;
+          
+        }
+        .pie-pagina{
+            background-color: var(--black);
+        }
+        .pie-pagina a{
+            text-decoration: none;
+            color: var(--hospital-green);
+
+        }
+        @media(max-width:640px){
+            body img{
+                width: 100%;
+            }
+            .product-detail{width: 100%;}
+            .pie-pagina{
+                display: flex;
+                display: none;
+            }
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <img src="assets/fondos/Build a Backyard BMX Bike Track _ Built by Kids.jfif" alt="" width="100%" height="100%">
+    <aside class="product-detail">
+        <img src="assets/cerrar-sesion.png" alt="close">
+        <img src="assets/productos/calzado-ciclista-red.jfif" alt="product">
+        <div class="product-info">
+            <p>$40 usd</p>
+            <p>shoes sports</p>
+            <p>shoes sports red for goin in to bike with max confort </p> 
+            <button class="primary-button">
+                <img src="assets/anadir-a-la-cesta.png" alt="car-the-shopping">
+                Add to car
+            </button>
+
+        </div>
+
+    </aside>
+    <footer class="pie-pagina">
+        <a href="mailto:Alexis20hj@hotmail.com" >Comunicate conmigo aqui</a>
+    </footer>
+</body>
+</html>

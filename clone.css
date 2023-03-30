@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   
+    
+}
+nav{
+    color: rgba(0,0,0,.87);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 1rem;
+}
+nav div a{
+    color: rgba(0,0,0,.87);
+    display: flex;
+    margin: 2px 20px 0px 0px;
+    text-decoration: none;
+}
+.inicono-grid{
+    background-color:gray;
+    width: 2rem;
+}
+.perfil-photo{
+    display: flex;
+    width: 2rem;
+    border-radius: 5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: inherit;
+
+}
+figure{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+figure img{
+    width: 20rem;
+    margin-top: -60px;
+    margin-bottom: 0;
+    border: 0;
+    padding: 0;
+}
+main div, .contenedor-buscador{
+  display: flex;
+  border: #70757a solid 1px;
+  border-radius: 2rem;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -95;
+    
+    
+    
+  
+}
+
+
+.buscador{
+    width:450px ;
+    height: 25px;
+    border: none;
+    outline: none;
+    
+    
+}
+.buscador :hover{
+ background-color: gray;
+}
+main div a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 0;
+}
+.lupa{
+    background-color:black;
+    margin: 0px 0px 0px 0px;
+    border-radius: 1rem;
+}
+.microfono{
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    border-radius: 2rem;
+  
+
+}
+.camara{
+    background-color: white;
+    margin: 0px 0px -4px 36px;
+    border-radius: 4px;
+}
+.button input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+    
+    
+}
+.button input :hover{
+    display: flex;
+    border: 1px solid gray;
+}
+
+    
+
+
+.parrafo{
+    display: flex;
+    color:  #70757a;
+    justify-content: left;
+    margin-top: 9rem;
+    border-bottom: solid 1px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: #70757a;
+}
+footer div a{
+    text-decoration: none;
+    color: #70757a;
+}
+.contenedor2, #preferencias{
+    border: none;
+    text-decoration: none;
+    color: #70757a;
+}
+
+    
+    
+   
+
